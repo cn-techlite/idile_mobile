@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "488170201737",
+    "project_id": "idile-33c94",
+    "storage_bucket": "idile-33c94.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488170201737:android:236820608a537f4d1c5c58",
+        "android_client_info": {
+          "package_name": "com.app.idile_mobile_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488170201737-i2sd2b3k5ul3jecteakno3mnb1ib117u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.idile_mobile_app",
+            "certificate_hash": "9004391edf4506097efd34c13b16b4f6cc60eb60"
+          }
+        },
+        {
+          "client_id": "488170201737-v5pequj4q911cfbrfdbh3dst6tppq973.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEPrf03lvrBEBu1wb3YdIF4J0D-IHWBIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488170201737-v5pequj4q911cfbrfdbh3dst6tppq973.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "488170201737-6gc87noas1b5585gg77bljas61pd6tp6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.idileMobileApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

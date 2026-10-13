@@ -23,6 +23,10 @@ migrate_working_dir/
 # is commented out by default.
 #.vscode/
 
+# Local-only VS Code build definitions. Never put server secrets in these
+# files: Dart defines are compiled into the application binary.
+.vscode/env/*.local.json
+
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
@@ -46,3 +50,6 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# FVM Version Cache
+.fvm/

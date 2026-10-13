@@ -1,0 +1,8 @@
+{
+  "ENV": "test",
+  "PRODUCTION_BASE_URL": "https://api.idile.com.ng/v1/",
+  "LIVE_BASE_URL": "https://api.idile.com.ng/v1/",
+  "TEST_BASE_URL": "https://api.idile.com.ng/v1/",
+  "GOOGLE_WEB_CLIENT_ID": "488170201737-v5pequj4q911cfbrfdbh3dst6tppq973.apps.googleusercontent.com",
+  "GOOGLE_IOS_CLIENT_ID": "488170201737-6gc87noas1b5585gg77bljas61pd6tp6.apps.googleusercontent.com"
+}

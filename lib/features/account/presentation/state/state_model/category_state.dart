@@ -1,0 +1,34 @@
+import 'package:idile_mobile_app/features/account/data/model/categories/category.dart';
+
+class CategoryState {
+  const CategoryState({
+    this.categories = const [],
+    this.isRefreshing = false,
+    this.isCreating = false,
+    this.updatingIds = const {},
+    this.deletingIds = const {},
+  });
+
+  final List<Category> categories;
+  final bool isRefreshing;
+  final bool isCreating;
+  final Set<String> updatingIds;
+  final Set<String> deletingIds;
+
+  bool isUpdating(String id) => updatingIds.contains(id);
+  bool isDeleting(String id) => deletingIds.contains(id);
+
+  CategoryState copyWith({
+    List<Category>? categories,
+    bool? isRefreshing,
+    bool? isCreating,
+    Set<String>? updatingIds,
+    Set<String>? deletingIds,
+  }) => CategoryState(
+    categories: categories ?? this.categories,
+    isRefreshing: isRefreshing ?? this.isRefreshing,
+    isCreating: isCreating ?? this.isCreating,
+    updatingIds: updatingIds ?? this.updatingIds,
+    deletingIds: deletingIds ?? this.deletingIds,
+  );
+}

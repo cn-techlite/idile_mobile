@@ -1,0 +1,29 @@
+{
+  "cSpell.words": [
+    "appinvite",
+    "bljas",
+    "cfbrfdbh",
+    "dpop",
+    "googleusercontent",
+    "idile",
+    "Ìdílé",
+    "imdex",
+    "LTWH",
+    "mobilesdk",
+    "noas",
+    "Okafor",
+    "Organise",
+    "pequj",
+    "Practioner",
+    "pubspec",
+    "romdenvcqdnit",
+    "snacker",
+    "svgs",
+    "tppq",
+    "usecases"
+  ],
+  "dart.flutterSdkPath": ".fvm/versions/stable",
+  "dart.flutterRunAdditionalArgs": [
+    "--android-skip-build-dependency-validation"
+  ]
+}

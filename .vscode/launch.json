@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Idile — Test",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "toolArgs": [
+        "--dart-define-from-file=.vscode/env/test.json"
+      ]
+    },
+    {
+      "name": "Idile — Live",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "toolArgs": [
+        "--dart-define-from-file=.vscode/env/live.json"
+      ]
+    },
+    {
+      "name": "Idile — Production",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "toolArgs": [
+        "--dart-define-from-file=.vscode/env/production.json"
+      ]
+    }
+  ]
+}
