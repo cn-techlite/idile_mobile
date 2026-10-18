@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:idile_mobile_app/core/utils/size_config.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:idile_mobile_app/core/theme/colors.dart';
-import 'package:idile_mobile_app/features/account/data/model/notifications/in_app_notification.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/notifications/in_app_notification.dart';
 import 'package:idile_mobile_app/features/account/presentation/state/providers/notification_provider.dart';
 import 'package:idile_mobile_app/features/account/presentation/state/state_model/notification_state.dart';
 import 'package:idile_mobile_app/features/account/presentation/widget/notification_tile.dart';

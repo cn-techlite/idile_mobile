@@ -1,4 +1,4 @@
-import 'package:idile_mobile_app/features/subs/data/model/subscriptions/subscription.dart';
+import 'package:idile_mobile_app/features/subs/domain/entities/subscriptions/subscription.dart';
 
 class SubscriptionState {
   const SubscriptionState({

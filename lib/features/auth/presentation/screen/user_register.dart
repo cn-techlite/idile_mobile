@@ -5,7 +5,7 @@ import 'package:idile_mobile_app/core/utils/size_config.dart';
 import 'package:idile_mobile_app/core/constants/constants.dart';
 import 'package:idile_mobile_app/core/utils/helper_functions.dart';
 import 'package:idile_mobile_app/core/utils/package_export.dart';
-import 'package:idile_mobile_app/features/auth/data/dto/register_request.dart';
+import 'package:idile_mobile_app/features/auth/domain/parameters/register_request.dart';
 import 'package:idile_mobile_app/features/auth/presentation/screen/confirm_email.dart';
 import 'package:idile_mobile_app/features/auth/presentation/screen/device_approval.dart';
 import 'package:idile_mobile_app/features/auth/presentation/screen/logins.dart';

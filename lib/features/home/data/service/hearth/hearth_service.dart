@@ -1,5 +1,5 @@
 import 'package:idile_mobile_app/core/network/api_client.dart';
-import 'package:idile_mobile_app/features/home/data/model/hearth/hearth_models.dart';
+import 'package:idile_mobile_app/features/home/domain/entities/hearth/hearth_models.dart';
 
 class HearthService {
   const HearthService(this._api);

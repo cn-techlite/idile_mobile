@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:idile_mobile_app/core/utils/size_config.dart';
-import 'package:idile_mobile_app/features/account/data/model/catalog/account_catalog.dart';
-import 'package:idile_mobile_app/features/bills/data/model/bills/bill.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/catalog/account_catalog.dart';
+import 'package:idile_mobile_app/features/bills/domain/entities/bills/bill.dart';
 import 'package:idile_mobile_app/shared/widgets/app_text.dart';
 import 'package:idile_mobile_app/shared/widgets/app_buttons.dart';
 import 'package:idile_mobile_app/shared/widgets/hearth_widgets.dart';

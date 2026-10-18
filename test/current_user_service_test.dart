@@ -6,11 +6,11 @@ import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
 import 'package:idile_mobile_app/core/network/api_client.dart';
 import 'package:idile_mobile_app/core/storage/session_store.dart';
-import 'package:idile_mobile_app/features/account/data/dto/profile/update_account_request.dart';
-import 'package:idile_mobile_app/features/account/data/dto/profile/upload_avatar_request.dart';
-import 'package:idile_mobile_app/features/account/data/dto/reminders/update_reminder_settings_request.dart';
-import 'package:idile_mobile_app/features/account/data/dto/notification_settings/update_notification_settings_request.dart';
-import 'package:idile_mobile_app/features/account/data/model/reminders/reminder_settings.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/profile/update_account_request.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/profile/upload_avatar_request.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/reminders/update_reminder_settings_request.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/notification_settings/update_notification_settings_request.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/reminders/reminder_settings.dart';
 import 'package:idile_mobile_app/features/account/data/service/account/account_remote_service.dart';
 
 void main() {

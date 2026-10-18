@@ -1,9 +1,9 @@
-import 'package:idile_mobile_app/features/subs/data/dto/subscriptions/create_subscription_request.dart';
-import 'package:idile_mobile_app/features/subs/data/dto/subscriptions/get_subscriptions_request.dart';
-import 'package:idile_mobile_app/features/subs/data/dto/subscriptions/update_subscription_request.dart';
-import 'package:idile_mobile_app/features/subs/data/model/subscriptions/subscription.dart';
+import 'package:idile_mobile_app/features/subs/domain/parameters/subscriptions/create_subscription_request.dart';
+import 'package:idile_mobile_app/features/subs/domain/parameters/subscriptions/get_subscriptions_request.dart';
+import 'package:idile_mobile_app/features/subs/domain/parameters/subscriptions/update_subscription_request.dart';
+import 'package:idile_mobile_app/features/subs/domain/entities/subscriptions/subscription.dart';
 import 'package:idile_mobile_app/features/subs/data/service/subscriptions/subscription_remote_service.dart';
-import 'package:idile_mobile_app/features/subs/domain/usecases/subscriptions/subscription_repository.dart';
+import 'package:idile_mobile_app/features/subs/domain/repositories/subscriptions/subscription_repository.dart';
 
 class SubscriptionRepositoryImpl implements SubscriptionRepository {
   const SubscriptionRepositoryImpl(this._remoteService);

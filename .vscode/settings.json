@@ -20,6 +20,7 @@
     "snacker",
     "svgs",
     "tppq",
+    "Unrecognised",
     "usecases"
   ],
   "dart.flutterSdkPath": ".fvm/versions/stable",

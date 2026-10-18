@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:idile_mobile_app/core/utils/size_config.dart';
 import 'package:idile_mobile_app/core/theme/colors.dart';
-import 'package:idile_mobile_app/features/account/data/model/devices/registered_device.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/devices/registered_device.dart';
 import 'package:idile_mobile_app/shared/widgets/app_text.dart';
 import 'package:idile_mobile_app/shared/widgets/app_buttons.dart';
 import 'package:intl/intl.dart';
@@ -26,7 +26,9 @@ class DeviceTile extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           CircleAvatar(
-            backgroundColor: Theme.of(context).colorScheme.surfaceContainerHighest,
+            backgroundColor: Theme.of(context)
+                .colorScheme
+                .surfaceContainerHighest,
             foregroundColor: Theme.of(context).colorScheme.onSurface,
             child: Icon(_platformIcon(device.platform)),
           ),

@@ -1,4 +1,4 @@
-import 'package:idile_mobile_app/features/account/data/model/currencies/currency.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/currencies/currency.dart';
 
 class CurrencyState {
   const CurrencyState({

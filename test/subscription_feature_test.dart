@@ -6,10 +6,10 @@ import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
 import 'package:idile_mobile_app/core/network/api_client.dart';
 import 'package:idile_mobile_app/core/storage/session_store.dart';
-import 'package:idile_mobile_app/features/subs/data/dto/subscriptions/create_subscription_request.dart';
-import 'package:idile_mobile_app/features/subs/data/dto/subscriptions/get_subscriptions_request.dart';
-import 'package:idile_mobile_app/features/subs/data/dto/subscriptions/update_subscription_request.dart';
-import 'package:idile_mobile_app/features/subs/data/model/subscriptions/subscription.dart';
+import 'package:idile_mobile_app/features/subs/domain/parameters/subscriptions/create_subscription_request.dart';
+import 'package:idile_mobile_app/features/subs/domain/parameters/subscriptions/get_subscriptions_request.dart';
+import 'package:idile_mobile_app/features/subs/domain/parameters/subscriptions/update_subscription_request.dart';
+import 'package:idile_mobile_app/features/subs/domain/entities/subscriptions/subscription.dart';
 import 'package:idile_mobile_app/features/subs/data/service/subscriptions/subscription_remote_service.dart';
 import 'package:idile_mobile_app/features/subs/presentation/state/state_model/subscription_state.dart';
 

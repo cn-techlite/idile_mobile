@@ -1,7 +1,7 @@
 import 'package:idile_mobile_app/core/network/api_client.dart';
 import 'package:idile_mobile_app/core/network/endpoints.dart';
-import 'package:idile_mobile_app/features/account/data/dto/notifications/get_notifications_request.dart';
-import 'package:idile_mobile_app/features/account/data/model/notifications/in_app_notification.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/notifications/get_notifications_request.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/notifications/in_app_notification.dart';
 
 class NotificationRemoteService {
   const NotificationRemoteService(this._api);

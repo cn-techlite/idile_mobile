@@ -6,8 +6,8 @@ import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
 import 'package:idile_mobile_app/core/network/api_client.dart';
 import 'package:idile_mobile_app/core/storage/session_store.dart';
-import 'package:idile_mobile_app/features/account/data/dto/currencies/create_currency_request.dart';
-import 'package:idile_mobile_app/features/account/data/dto/currencies/update_currency_request.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/currencies/create_currency_request.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/currencies/update_currency_request.dart';
 import 'package:idile_mobile_app/features/account/data/service/currencies/currency_remote_service.dart';
 
 void main() {

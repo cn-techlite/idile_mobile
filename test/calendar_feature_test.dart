@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
 import 'package:idile_mobile_app/core/network/api_client.dart';
 import 'package:idile_mobile_app/core/storage/session_store.dart';
-import 'package:idile_mobile_app/features/more/data/dto/calendar/get_calendar_entries_request.dart';
+import 'package:idile_mobile_app/features/more/domain/parameters/calendar/get_calendar_entries_request.dart';
 import 'package:idile_mobile_app/features/more/data/service/calendar/calendar_remote_service.dart';
 import 'package:idile_mobile_app/features/more/presentation/state/state_model/calendar_state.dart';
 

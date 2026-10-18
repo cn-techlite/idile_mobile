@@ -1,11 +1,11 @@
 import 'package:idile_mobile_app/core/network/api_client.dart';
 import 'package:idile_mobile_app/core/network/endpoints.dart';
-import 'package:idile_mobile_app/features/bills/data/dto/bills/create_bill_request.dart';
-import 'package:idile_mobile_app/features/bills/data/dto/bills/get_bills_request.dart';
-import 'package:idile_mobile_app/features/bills/data/dto/bills/update_bill_request.dart';
-import 'package:idile_mobile_app/features/bills/data/dto/payments/get_bill_payments_request.dart';
-import 'package:idile_mobile_app/features/bills/data/model/bills/bill.dart';
-import 'package:idile_mobile_app/features/bills/data/model/payments/payment_record.dart';
+import 'package:idile_mobile_app/features/bills/domain/parameters/bills/create_bill_request.dart';
+import 'package:idile_mobile_app/features/bills/domain/parameters/bills/get_bills_request.dart';
+import 'package:idile_mobile_app/features/bills/domain/parameters/bills/update_bill_request.dart';
+import 'package:idile_mobile_app/features/bills/domain/parameters/payments/get_bill_payments_request.dart';
+import 'package:idile_mobile_app/features/bills/domain/entities/bills/bill.dart';
+import 'package:idile_mobile_app/features/bills/domain/entities/payments/payment_record.dart';
 
 class BillRemoteService {
   const BillRemoteService(this._api);

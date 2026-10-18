@@ -1,8 +1,8 @@
 import 'package:idile_mobile_app/core/network/api_client.dart';
 import 'package:idile_mobile_app/core/network/endpoints.dart';
-import 'package:idile_mobile_app/features/more/data/dto/calendar/get_calendar_entries_request.dart';
-import 'package:idile_mobile_app/features/more/data/model/calendar/calendar_entry.dart';
-import 'package:idile_mobile_app/features/more/data/model/calendar/calendar_feed_token.dart';
+import 'package:idile_mobile_app/features/more/domain/parameters/calendar/get_calendar_entries_request.dart';
+import 'package:idile_mobile_app/features/more/domain/entities/calendar/calendar_entry.dart';
+import 'package:idile_mobile_app/features/more/domain/entities/calendar/calendar_feed_token.dart';
 
 class CalendarRemoteService {
   const CalendarRemoteService(this._api);

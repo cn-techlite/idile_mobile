@@ -1,16 +1,16 @@
 import 'package:idile_mobile_app/core/network/api_client.dart';
 import 'package:idile_mobile_app/core/network/endpoints.dart';
-import 'package:idile_mobile_app/features/account/data/dto/account/schedule_account_deletion_request.dart';
-import 'package:idile_mobile_app/features/account/data/dto/profile/update_account_request.dart';
-import 'package:idile_mobile_app/features/account/data/dto/profile/upload_avatar_request.dart';
-import 'package:idile_mobile_app/features/account/data/dto/reminders/update_reminder_settings_request.dart';
-import 'package:idile_mobile_app/features/account/data/dto/notification_settings/update_notification_settings_request.dart';
-import 'package:idile_mobile_app/features/account/data/model/notification_settings/notification_settings.dart';
-import 'package:idile_mobile_app/features/account/data/model/account/account_data_export.dart';
-import 'package:idile_mobile_app/features/account/data/model/account/account_deletion_schedule.dart';
-import 'package:idile_mobile_app/features/account/data/model/exchange_rates/exchange_rates.dart';
-import 'package:idile_mobile_app/features/account/data/model/profile/user_profile.dart';
-import 'package:idile_mobile_app/features/account/data/model/reminders/reminder_settings.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/account/schedule_account_deletion_request.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/profile/update_account_request.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/profile/upload_avatar_request.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/reminders/update_reminder_settings_request.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/notification_settings/update_notification_settings_request.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/notification_settings/notification_settings.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/account/account_data_export.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/account/account_deletion_schedule.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/exchange_rates/exchange_rates.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/profile/user_profile.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/reminders/reminder_settings.dart';
 
 class AccountRemoteService {
   const AccountRemoteService(this._api);

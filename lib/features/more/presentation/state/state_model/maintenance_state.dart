@@ -1,4 +1,4 @@
-import 'package:idile_mobile_app/features/more/data/model/maintenance/maintenance_task.dart';
+import 'package:idile_mobile_app/features/more/domain/entities/maintenance/maintenance_task.dart';
 
 class MaintenanceState {
   const MaintenanceState({

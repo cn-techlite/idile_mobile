@@ -1,8 +1,8 @@
-import 'package:idile_mobile_app/features/more/data/dto/calendar/get_calendar_entries_request.dart';
-import 'package:idile_mobile_app/features/more/data/model/calendar/calendar_entry.dart';
-import 'package:idile_mobile_app/features/more/data/model/calendar/calendar_feed_token.dart';
+import 'package:idile_mobile_app/features/more/domain/parameters/calendar/get_calendar_entries_request.dart';
+import 'package:idile_mobile_app/features/more/domain/entities/calendar/calendar_entry.dart';
+import 'package:idile_mobile_app/features/more/domain/entities/calendar/calendar_feed_token.dart';
 import 'package:idile_mobile_app/features/more/data/service/calendar/calendar_remote_service.dart';
-import 'package:idile_mobile_app/features/more/domain/usecases/calendar/calendar_repository.dart';
+import 'package:idile_mobile_app/features/more/domain/repositories/calendar/calendar_repository.dart';
 
 class CalendarRepositoryImpl implements CalendarRepository {
   const CalendarRepositoryImpl(this._remoteService);

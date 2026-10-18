@@ -7,15 +7,15 @@ import 'package:idile_mobile_app/core/network/api_client.dart';
 import 'package:idile_mobile_app/core/network/endpoints.dart';
 import 'package:idile_mobile_app/core/services/globals.dart';
 import 'package:idile_mobile_app/features/auth/data/dto/login_request.dart';
-import 'package:idile_mobile_app/features/auth/data/dto/register_request.dart';
+import 'package:idile_mobile_app/features/auth/domain/parameters/register_request.dart';
 import 'package:idile_mobile_app/features/auth/data/dto/resend_code_request.dart';
 import 'package:idile_mobile_app/features/auth/data/dto/reset_password_request.dart';
 import 'package:idile_mobile_app/features/auth/data/dto/verify_email_request.dart';
-import 'package:idile_mobile_app/features/auth/data/dto/update_profile_request.dart';
-import 'package:idile_mobile_app/features/auth/data/dto/wallet_request.dart';
+import 'package:idile_mobile_app/features/auth/domain/parameters/update_profile_request.dart';
+import 'package:idile_mobile_app/features/auth/domain/parameters/wallet_request.dart';
 import 'package:idile_mobile_app/features/auth/data/model/device_binding_models.dart';
 import 'package:idile_mobile_app/features/auth/data/model/apple_sign_in_payload.dart';
-import 'package:idile_mobile_app/features/home/data/model/hearth/hearth_models.dart';
+import 'package:idile_mobile_app/features/home/domain/entities/hearth/hearth_models.dart';
 import 'package:http/http.dart' as http;
 
 class AuthRemoteService {

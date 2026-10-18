@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:idile_mobile_app/core/theme/colors.dart';
 import 'package:idile_mobile_app/core/utils/size_config.dart';
-import 'package:idile_mobile_app/features/more/data/model/calendar/calendar_entry.dart';
+import 'package:idile_mobile_app/features/more/domain/entities/calendar/calendar_entry.dart';
 import 'package:idile_mobile_app/features/more/presentation/state/providers/calendar_provider.dart';
 import 'package:idile_mobile_app/features/more/presentation/state/state_model/calendar_state.dart';
 import 'package:idile_mobile_app/shared/widgets/app_buttons.dart';

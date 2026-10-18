@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:idile_mobile_app/core/utils/size_config.dart';
 import 'package:idile_mobile_app/core/theme/colors.dart';
-import 'package:idile_mobile_app/features/account/data/model/catalog/account_catalog.dart';
-import 'package:idile_mobile_app/features/subs/data/model/subscriptions/subscription.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/catalog/account_catalog.dart';
+import 'package:idile_mobile_app/features/subs/domain/entities/subscriptions/subscription.dart';
 import 'package:idile_mobile_app/shared/widgets/app_text.dart';
 import 'package:idile_mobile_app/shared/widgets/hearth_widgets.dart';
 

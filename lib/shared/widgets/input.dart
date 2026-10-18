@@ -301,8 +301,7 @@ class _GlobalPhoneTextFieldState extends State<GlobalPhoneTextField> {
     final foreground = colors.onSurface;
     final muted = colors.onSurfaceVariant;
     final fieldColor =
-        widget.fillColor ??
-        (isDark ? AppColors.surfaceDark : AppColors.white);
+        widget.fillColor ?? (isDark ? AppColors.surfaceDark : AppColors.white);
     final borderColor = isDark ? Colors.white24 : AppColors.line;
     final radius = widget.borderRadius ?? 14;
     return IntlMobileField(
@@ -361,11 +360,7 @@ class _GlobalPhoneTextFieldState extends State<GlobalPhoneTextField> {
           borderRadius: BorderRadius.circular(radius),
           borderSide: BorderSide(color: colors.error, width: 2),
         ),
-        errorStyle: TextStyle(
-          color: colors.error,
-          fontSize: 10,
-          height: 1.1,
-        ),
+        errorStyle: TextStyle(color: colors.error, fontSize: 10, height: 1.1),
       ),
       validator: (mobileNumber) {
         if (widget.isOptional &&
@@ -777,10 +772,7 @@ class _CustomMultipleDropdownBottomSheetState
                     isLoading: false,
                   ),
                   IconButton(
-                    icon: Icon(
-                      Icons.close,
-                      color: colors.onSurfaceVariant,
-                    ),
+                    icon: Icon(Icons.close, color: colors.onSurfaceVariant),
                     onPressed: () => Navigator.pop(context),
                   ),
                 ],

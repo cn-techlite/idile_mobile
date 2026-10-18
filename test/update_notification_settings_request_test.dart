@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:idile_mobile_app/features/account/data/dto/notification_settings/update_notification_settings_request.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/notification_settings/update_notification_settings_request.dart';
 
 void main() {
   test('serializes only notification fields being changed', () {

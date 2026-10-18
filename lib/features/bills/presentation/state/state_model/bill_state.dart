@@ -1,4 +1,4 @@
-import 'package:idile_mobile_app/features/bills/data/model/bills/bill.dart';
+import 'package:idile_mobile_app/features/bills/domain/entities/bills/bill.dart';
 
 class BillState {
   const BillState({

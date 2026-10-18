@@ -1,9 +1,9 @@
 import 'package:idile_mobile_app/core/network/api_client.dart';
 import 'package:idile_mobile_app/core/network/endpoints.dart';
-import 'package:idile_mobile_app/features/subs/data/dto/subscriptions/create_subscription_request.dart';
-import 'package:idile_mobile_app/features/subs/data/dto/subscriptions/get_subscriptions_request.dart';
-import 'package:idile_mobile_app/features/subs/data/dto/subscriptions/update_subscription_request.dart';
-import 'package:idile_mobile_app/features/subs/data/model/subscriptions/subscription.dart';
+import 'package:idile_mobile_app/features/subs/domain/parameters/subscriptions/create_subscription_request.dart';
+import 'package:idile_mobile_app/features/subs/domain/parameters/subscriptions/get_subscriptions_request.dart';
+import 'package:idile_mobile_app/features/subs/domain/parameters/subscriptions/update_subscription_request.dart';
+import 'package:idile_mobile_app/features/subs/domain/entities/subscriptions/subscription.dart';
 
 class SubscriptionRemoteService {
   const SubscriptionRemoteService(this._api);

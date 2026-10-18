@@ -1,4 +1,4 @@
-import 'package:idile_mobile_app/features/more/data/model/documents/document_item.dart';
+import 'package:idile_mobile_app/features/more/domain/entities/documents/document_item.dart';
 
 class DocumentState {
   const DocumentState({

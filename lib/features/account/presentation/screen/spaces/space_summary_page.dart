@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:idile_mobile_app/core/utils/size_config.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:idile_mobile_app/core/theme/colors.dart';
-import 'package:idile_mobile_app/features/account/data/model/spaces/space.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/spaces/space.dart';
 import 'package:idile_mobile_app/features/account/presentation/state/providers/space_provider.dart';
 import 'package:idile_mobile_app/features/account/presentation/widget/space_tile.dart';
 import 'package:idile_mobile_app/shared/widgets/app_text.dart';
@@ -118,7 +118,9 @@ class SpaceSummaryPage extends ConsumerWidget {
                           AppText(
                             text: _label(entry.key),
                             type: AppTextType.bodySmall,
-                            color: Theme.of(context).colorScheme.onSurfaceVariant,
+                            color: Theme.of(context)
+                                .colorScheme
+                                .onSurfaceVariant,
                           ),
                         ],
                       ),

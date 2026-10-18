@@ -1,8 +1,8 @@
-import 'package:idile_mobile_app/features/account/data/model/account/account_data_export.dart';
-import 'package:idile_mobile_app/features/account/data/model/exchange_rates/exchange_rates.dart';
-import 'package:idile_mobile_app/features/account/data/model/reminders/reminder_settings.dart';
-import 'package:idile_mobile_app/features/account/data/model/notification_settings/notification_settings.dart';
-import 'package:idile_mobile_app/features/account/data/model/profile/user_profile.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/account/account_data_export.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/exchange_rates/exchange_rates.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/reminders/reminder_settings.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/notification_settings/notification_settings.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/profile/user_profile.dart';
 
 class AccountState {
   const AccountState({

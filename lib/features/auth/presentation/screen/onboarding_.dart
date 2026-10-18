@@ -1,23 +1,23 @@
 import 'package:idile_mobile_app/app/router/route.dart';
+import 'package:idile_mobile_app/app/di/repository_providers.dart';
 import 'package:idile_mobile_app/core/utils/size_config.dart';
 import 'package:idile_mobile_app/core/theme/colors.dart';
 import 'package:idile_mobile_app/core/utils/helper_functions.dart';
 import 'package:idile_mobile_app/core/utils/package_export.dart';
-import 'package:idile_mobile_app/features/auth/data/model/onbaording_data.dart';
-import 'package:idile_mobile_app/features/auth/data/model/onboarding_model.dart';
-import 'package:idile_mobile_app/features/auth/data/service/auth_local_storage_service.dart';
+import 'package:idile_mobile_app/features/auth/presentation/model/onboarding_data.dart';
+import 'package:idile_mobile_app/features/auth/presentation/model/onboarding_model.dart';
 import 'package:idile_mobile_app/shared/widgets/app_buttons.dart';
 import 'package:idile_mobile_app/shared/widgets/app_logo.dart';
 import 'package:idile_mobile_app/shared/widgets/app_text.dart';
 
-class OnboardingScreen extends StatefulWidget {
+class OnboardingScreen extends ConsumerStatefulWidget {
   const OnboardingScreen({super.key});
   static const String routeName = "/Onboard";
   @override
-  State<OnboardingScreen> createState() => _OnboardingScreenState();
+  ConsumerState<OnboardingScreen> createState() => _OnboardingScreenState();
 }
 
-class _OnboardingScreenState extends State<OnboardingScreen> {
+class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
   late final PageController pageController;
   int currentIndex = 0;
   final List<OnboardingModel> onboardingList = formattedOnboardingList;
@@ -35,7 +35,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   }
 
   Future<void> _completeOnboarding() async {
-    await AuthLocalStorageService().writeInt('onBoard', 0);
+    await ref.read(completeOnboardingUseCaseProvider)();
     if (!mounted) return;
     navPush(context, RootRoutes.getStarted);
   }

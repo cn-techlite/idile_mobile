@@ -1,13 +1,13 @@
 import 'package:idile_mobile_app/core/network/api_exception.dart';
 import 'package:idile_mobile_app/core/services/offline_cache_service.dart';
-import 'package:idile_mobile_app/features/account/data/model/profile/user_profile.dart';
-import 'package:idile_mobile_app/features/account/domain/usecases/account/account_repository.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/profile/user_profile.dart';
+import 'package:idile_mobile_app/features/account/domain/repositories/account/account_repository.dart';
 import 'package:idile_mobile_app/features/auth/data/service/auth_local_storage_service.dart';
 import 'package:idile_mobile_app/features/auth/data/service/auth_remote_service.dart';
 import 'package:idile_mobile_app/features/auth/data/service/auth_session_service.dart';
 import 'package:idile_mobile_app/features/auth/data/service/social_auth_service.dart';
 import 'package:idile_mobile_app/features/auth/data/service/push_token_registration_service.dart';
-import 'package:idile_mobile_app/features/auth/domain/usecases/idile_auth_repository.dart';
+import 'package:idile_mobile_app/features/auth/domain/repositories/idile_auth_repository.dart';
 
 class IdileAuthRepositoryImpl implements IdileAuthRepository {
   IdileAuthRepositoryImpl(

@@ -1,4 +1,4 @@
-import 'package:idile_mobile_app/features/account/data/model/notifications/in_app_notification.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/notifications/in_app_notification.dart';
 
 class NotificationState {
   const NotificationState({

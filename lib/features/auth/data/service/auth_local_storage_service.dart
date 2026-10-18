@@ -1,5 +1,5 @@
-import 'package:idile_mobile_app/features/auth/data/model/login_response_model.dart';
-import 'package:idile_mobile_app/features/account/data/model/profile/user_profile.dart';
+import 'package:idile_mobile_app/features/auth/domain/entities/login_response.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/profile/user_profile.dart';
 import 'package:idile_mobile_app/core/storage/session_store.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:shared_preferences/shared_preferences.dart';

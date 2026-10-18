@@ -1,4 +1,4 @@
-import 'package:idile_mobile_app/features/home/data/model/dashboard/dashboard_attention.dart';
+import 'package:idile_mobile_app/features/home/domain/entities/dashboard/dashboard_attention.dart';
 
 class DashboardAttentionState {
   const DashboardAttentionState({

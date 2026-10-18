@@ -1,9 +1,9 @@
-import 'package:idile_mobile_app/features/more/data/dto/maintenance/create_maintenance_request.dart';
-import 'package:idile_mobile_app/features/more/data/dto/maintenance/get_maintenance_request.dart';
-import 'package:idile_mobile_app/features/more/data/dto/maintenance/update_maintenance_request.dart';
-import 'package:idile_mobile_app/features/more/data/model/maintenance/maintenance_task.dart';
+import 'package:idile_mobile_app/features/more/domain/parameters/maintenance/create_maintenance_request.dart';
+import 'package:idile_mobile_app/features/more/domain/parameters/maintenance/get_maintenance_request.dart';
+import 'package:idile_mobile_app/features/more/domain/parameters/maintenance/update_maintenance_request.dart';
+import 'package:idile_mobile_app/features/more/domain/entities/maintenance/maintenance_task.dart';
 import 'package:idile_mobile_app/features/more/data/service/maintenance/maintenance_remote_service.dart';
-import 'package:idile_mobile_app/features/more/domain/usecases/maintenance/maintenance_repository.dart';
+import 'package:idile_mobile_app/features/more/domain/repositories/maintenance/maintenance_repository.dart';
 
 class MaintenanceRepositoryImpl implements MaintenanceRepository {
   const MaintenanceRepositoryImpl(this._remoteService);

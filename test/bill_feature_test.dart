@@ -6,11 +6,11 @@ import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
 import 'package:idile_mobile_app/core/network/api_client.dart';
 import 'package:idile_mobile_app/core/storage/session_store.dart';
-import 'package:idile_mobile_app/features/bills/data/dto/bills/create_bill_request.dart';
-import 'package:idile_mobile_app/features/bills/data/dto/bills/get_bills_request.dart';
-import 'package:idile_mobile_app/features/bills/data/dto/bills/update_bill_request.dart';
-import 'package:idile_mobile_app/features/bills/data/dto/payments/get_bill_payments_request.dart';
-import 'package:idile_mobile_app/features/bills/data/model/bills/bill.dart';
+import 'package:idile_mobile_app/features/bills/domain/parameters/bills/create_bill_request.dart';
+import 'package:idile_mobile_app/features/bills/domain/parameters/bills/get_bills_request.dart';
+import 'package:idile_mobile_app/features/bills/domain/parameters/bills/update_bill_request.dart';
+import 'package:idile_mobile_app/features/bills/domain/parameters/payments/get_bill_payments_request.dart';
+import 'package:idile_mobile_app/features/bills/domain/entities/bills/bill.dart';
 import 'package:idile_mobile_app/features/bills/data/service/bills/bill_remote_service.dart';
 import 'package:idile_mobile_app/features/bills/presentation/state/state_model/bill_state.dart';
 

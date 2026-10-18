@@ -1,4 +1,4 @@
-import 'package:idile_mobile_app/features/account/data/model/categories/category.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/categories/category.dart';
 
 class CategoryState {
   const CategoryState({

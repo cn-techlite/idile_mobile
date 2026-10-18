@@ -6,8 +6,8 @@ import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
 import 'package:idile_mobile_app/core/network/api_client.dart';
 import 'package:idile_mobile_app/core/storage/session_store.dart';
-import 'package:idile_mobile_app/features/account/data/dto/account/schedule_account_deletion_request.dart';
-import 'package:idile_mobile_app/features/account/data/model/account/account_data_export.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/account/schedule_account_deletion_request.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/account/account_data_export.dart';
 import 'package:idile_mobile_app/features/account/data/service/account/account_remote_service.dart';
 import 'package:idile_mobile_app/features/account/presentation/state/state_model/account_state.dart';
 

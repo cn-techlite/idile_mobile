@@ -1,9 +1,9 @@
 import 'package:idile_mobile_app/core/network/api_client.dart';
 import 'package:idile_mobile_app/core/network/endpoints.dart';
-import 'package:idile_mobile_app/features/more/data/dto/assets/create_asset_request.dart';
-import 'package:idile_mobile_app/features/more/data/dto/assets/get_assets_request.dart';
-import 'package:idile_mobile_app/features/more/data/dto/assets/update_asset_request.dart';
-import 'package:idile_mobile_app/features/more/data/model/assets/asset_item.dart';
+import 'package:idile_mobile_app/features/more/domain/parameters/assets/create_asset_request.dart';
+import 'package:idile_mobile_app/features/more/domain/parameters/assets/get_assets_request.dart';
+import 'package:idile_mobile_app/features/more/domain/parameters/assets/update_asset_request.dart';
+import 'package:idile_mobile_app/features/more/domain/entities/assets/asset_item.dart';
 
 class AssetRemoteService {
   const AssetRemoteService(this._api);

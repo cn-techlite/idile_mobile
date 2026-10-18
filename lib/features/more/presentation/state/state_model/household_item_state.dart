@@ -1,4 +1,4 @@
-import 'package:idile_mobile_app/features/more/data/model/household_items/household_item.dart';
+import 'package:idile_mobile_app/features/more/domain/entities/household_items/household_item.dart';
 
 class HouseholdItemState {
   const HouseholdItemState({

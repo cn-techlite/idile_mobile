@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:idile_mobile_app/app/di/repository_providers.dart';
 import 'package:idile_mobile_app/core/utils/size_config.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:idile_mobile_app/features/home/data/model/hearth/hearth_models.dart';
+import 'package:idile_mobile_app/features/home/domain/entities/hearth/hearth_models.dart';
 import 'package:idile_mobile_app/features/home/presentation/state/providers/hearth_providers.dart';
 import 'package:idile_mobile_app/shared/widgets/hearth_widgets.dart';
 import 'package:idile_mobile_app/shared/widgets/app_text.dart';
@@ -117,7 +118,7 @@ class _Users extends ConsumerWidget {
                 onChanged: (enabled) async {
                   try {
                     await ref
-                        .read(hearthRepositoryProvider)
+                        .read(hearthUseCasesProvider)
                         .setUserDisabled(user.id, !enabled);
                     ref.invalidate(adminUsersProvider);
                   } catch (e) {
@@ -159,7 +160,7 @@ class _Emails extends ConsumerWidget {
                     IconButton(
                       onPressed: () async {
                         await ref
-                            .read(hearthRepositoryProvider)
+                            .read(hearthUseCasesProvider)
                             .retryEmail(email.id);
                         ref.invalidate(adminEmailsProvider);
                       },
@@ -218,7 +219,7 @@ class _System extends ConsumerWidget {
               text: 'Run reminder sweep',
               onPressed: () async {
                 try {
-                  await ref.read(hearthRepositoryProvider).runReminderSweep();
+                  await ref.read(hearthUseCasesProvider).runReminderSweep();
                   if (context.mounted) {
                     ScaffoldMessenger.of(context).showSnackBar(
                       const SnackBar(

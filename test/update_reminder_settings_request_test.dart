@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:idile_mobile_app/features/account/data/dto/reminders/update_reminder_settings_request.dart';
-import 'package:idile_mobile_app/features/account/data/model/reminders/reminder_settings.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/reminders/update_reminder_settings_request.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/reminders/reminder_settings.dart';
 
 void main() {
   test('serializes only the reminder kinds being changed', () {

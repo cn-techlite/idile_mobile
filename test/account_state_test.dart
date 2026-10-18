@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:idile_mobile_app/features/account/data/model/profile/user_profile.dart';
-import 'package:idile_mobile_app/features/account/data/model/reminders/reminder_settings.dart';
-import 'package:idile_mobile_app/features/account/data/model/notification_settings/notification_settings.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/profile/user_profile.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/reminders/reminder_settings.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/notification_settings/notification_settings.dart';
 import 'package:idile_mobile_app/features/account/presentation/state/state_model/account_state.dart';
 
 void main() {

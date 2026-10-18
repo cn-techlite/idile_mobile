@@ -1,8 +1,8 @@
 import 'package:idile_mobile_app/core/network/api_client.dart';
 import 'package:idile_mobile_app/core/network/endpoints.dart';
-import 'package:idile_mobile_app/features/account/data/dto/categories/create_category_request.dart';
-import 'package:idile_mobile_app/features/account/data/dto/categories/update_category_request.dart';
-import 'package:idile_mobile_app/features/account/data/model/categories/category.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/categories/create_category_request.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/categories/update_category_request.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/categories/category.dart';
 
 class CategoryRemoteService {
   const CategoryRemoteService(this._api);

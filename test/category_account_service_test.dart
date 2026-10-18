@@ -6,8 +6,8 @@ import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
 import 'package:idile_mobile_app/core/network/api_client.dart';
 import 'package:idile_mobile_app/core/storage/session_store.dart';
-import 'package:idile_mobile_app/features/account/data/dto/categories/create_category_request.dart';
-import 'package:idile_mobile_app/features/account/data/dto/categories/update_category_request.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/categories/create_category_request.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/categories/update_category_request.dart';
 import 'package:idile_mobile_app/features/account/data/service/categories/category_remote_service.dart';
 
 void main() {

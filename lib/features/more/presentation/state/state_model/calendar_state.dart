@@ -1,4 +1,4 @@
-import 'package:idile_mobile_app/features/more/data/model/calendar/calendar_entry.dart';
+import 'package:idile_mobile_app/features/more/domain/entities/calendar/calendar_entry.dart';
 
 class CalendarState {
   const CalendarState({

@@ -1,4 +1,4 @@
-import 'package:idile_mobile_app/features/account/data/model/devices/registered_device.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/devices/registered_device.dart';
 
 class DeviceState {
   const DeviceState({

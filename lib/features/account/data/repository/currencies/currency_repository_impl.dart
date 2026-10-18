@@ -1,8 +1,8 @@
-import 'package:idile_mobile_app/features/account/data/dto/currencies/create_currency_request.dart';
-import 'package:idile_mobile_app/features/account/data/dto/currencies/update_currency_request.dart';
-import 'package:idile_mobile_app/features/account/data/model/currencies/currency.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/currencies/create_currency_request.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/currencies/update_currency_request.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/currencies/currency.dart';
 import 'package:idile_mobile_app/features/account/data/service/currencies/currency_remote_service.dart';
-import 'package:idile_mobile_app/features/account/domain/usecases/currencies/currency_repository.dart';
+import 'package:idile_mobile_app/features/account/domain/repositories/currencies/currency_repository.dart';
 
 class CurrencyRepositoryImpl implements CurrencyRepository {
   const CurrencyRepositoryImpl(this._remoteService);

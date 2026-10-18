@@ -1,11 +1,11 @@
-import 'package:idile_mobile_app/features/bills/data/dto/bills/create_bill_request.dart';
-import 'package:idile_mobile_app/features/bills/data/dto/bills/get_bills_request.dart';
-import 'package:idile_mobile_app/features/bills/data/dto/bills/update_bill_request.dart';
-import 'package:idile_mobile_app/features/bills/data/dto/payments/get_bill_payments_request.dart';
-import 'package:idile_mobile_app/features/bills/data/model/bills/bill.dart';
-import 'package:idile_mobile_app/features/bills/data/model/payments/payment_record.dart';
+import 'package:idile_mobile_app/features/bills/domain/parameters/bills/create_bill_request.dart';
+import 'package:idile_mobile_app/features/bills/domain/parameters/bills/get_bills_request.dart';
+import 'package:idile_mobile_app/features/bills/domain/parameters/bills/update_bill_request.dart';
+import 'package:idile_mobile_app/features/bills/domain/parameters/payments/get_bill_payments_request.dart';
+import 'package:idile_mobile_app/features/bills/domain/entities/bills/bill.dart';
+import 'package:idile_mobile_app/features/bills/domain/entities/payments/payment_record.dart';
 import 'package:idile_mobile_app/features/bills/data/service/bills/bill_remote_service.dart';
-import 'package:idile_mobile_app/features/bills/domain/usecases/bills/bill_repository.dart';
+import 'package:idile_mobile_app/features/bills/domain/repositories/bills/bill_repository.dart';
 
 class BillRepositoryImpl implements BillRepository {
   const BillRepositoryImpl(this._remoteService);

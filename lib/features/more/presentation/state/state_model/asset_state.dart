@@ -1,4 +1,4 @@
-import 'package:idile_mobile_app/features/more/data/model/assets/asset_item.dart';
+import 'package:idile_mobile_app/features/more/domain/entities/assets/asset_item.dart';
 
 class AssetState {
   const AssetState({

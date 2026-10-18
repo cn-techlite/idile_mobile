@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:idile_mobile_app/features/account/data/dto/profile/update_account_request.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/profile/update_account_request.dart';
 
 void main() {
   test('serializes only fields supplied for the partial update', () {

@@ -1,8 +1,8 @@
-import 'package:idile_mobile_app/features/account/data/dto/spaces/create_space_request.dart';
-import 'package:idile_mobile_app/features/account/data/dto/spaces/update_space_request.dart';
-import 'package:idile_mobile_app/features/account/data/model/spaces/space.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/spaces/create_space_request.dart';
+import 'package:idile_mobile_app/features/account/domain/parameters/spaces/update_space_request.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/spaces/space.dart';
 import 'package:idile_mobile_app/features/account/data/service/spaces/space_remote_service.dart';
-import 'package:idile_mobile_app/features/account/domain/usecases/spaces/space_repository.dart';
+import 'package:idile_mobile_app/features/account/domain/repositories/spaces/space_repository.dart';
 
 class SpaceRepositoryImpl implements SpaceRepository {
   const SpaceRepositoryImpl(this._remoteService);

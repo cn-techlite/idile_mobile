@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:idile_mobile_app/core/utils/size_config.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:idile_mobile_app/core/theme/colors.dart';
-import 'package:idile_mobile_app/features/account/data/model/devices/registered_device.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/devices/registered_device.dart';
 import 'package:idile_mobile_app/features/account/presentation/state/providers/device_provider.dart';
 import 'package:idile_mobile_app/features/account/presentation/widget/device_tile.dart';
 import 'package:idile_mobile_app/shared/widgets/app_text.dart';

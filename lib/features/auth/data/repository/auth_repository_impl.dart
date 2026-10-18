@@ -7,22 +7,22 @@ import 'package:idile_mobile_app/core/errors/error_handling.dart';
 import 'package:idile_mobile_app/core/network/api_exception.dart';
 import 'package:idile_mobile_app/core/services/globals.dart';
 import 'package:idile_mobile_app/core/services/offline_cache_service.dart';
-import 'package:idile_mobile_app/features/auth/data/dto/register_request.dart';
+import 'package:idile_mobile_app/features/auth/domain/parameters/register_request.dart';
 import 'package:idile_mobile_app/features/auth/data/dto/resend_code_request.dart';
 import 'package:idile_mobile_app/features/auth/data/dto/reset_password_request.dart';
 import 'package:idile_mobile_app/features/auth/data/dto/verify_email_request.dart';
-import 'package:idile_mobile_app/features/auth/data/dto/update_profile_request.dart';
-import 'package:idile_mobile_app/features/auth/data/dto/wallet_request.dart';
-import 'package:idile_mobile_app/features/auth/data/model/auth_result_model.dart';
+import 'package:idile_mobile_app/features/auth/domain/parameters/update_profile_request.dart';
+import 'package:idile_mobile_app/features/auth/domain/parameters/wallet_request.dart';
+import 'package:idile_mobile_app/features/auth/domain/entities/auth_result.dart';
 import 'package:idile_mobile_app/features/auth/data/model/device_binding_models.dart';
-import 'package:idile_mobile_app/features/auth/data/model/login_response_model.dart';
+import 'package:idile_mobile_app/features/auth/domain/entities/login_response.dart';
 import 'package:idile_mobile_app/features/auth/data/service/auth_local_storage_service.dart';
 import 'package:idile_mobile_app/features/auth/data/service/auth_remote_service.dart';
 import 'package:idile_mobile_app/features/auth/data/service/auth_session_service.dart';
 import 'package:idile_mobile_app/features/auth/data/service/social_auth_service.dart';
 import 'package:idile_mobile_app/features/auth/data/service/device_binding_service.dart';
 import 'package:idile_mobile_app/features/auth/data/service/push_token_registration_service.dart';
-import 'package:idile_mobile_app/features/auth/domain/usecases/auth_repository.dart';
+import 'package:idile_mobile_app/features/auth/domain/repositories/auth_repository.dart';
 
 class AuthRepositoryImpl implements AuthRepository {
   final AuthRemoteService _remoteService;

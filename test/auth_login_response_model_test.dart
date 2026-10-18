@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:idile_mobile_app/features/auth/data/model/login_response_model.dart';
+import 'package:idile_mobile_app/features/auth/domain/entities/login_response.dart';
 
 void main() {
   test('parses token response and derives identity from access token', () {

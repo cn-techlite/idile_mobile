@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:idile_mobile_app/core/utils/size_config.dart';
 import 'package:idile_mobile_app/core/theme/colors.dart';
-import 'package:idile_mobile_app/features/account/data/model/notifications/in_app_notification.dart';
+import 'package:idile_mobile_app/features/account/domain/entities/notifications/in_app_notification.dart';
 import 'package:idile_mobile_app/shared/widgets/app_text.dart';
 import 'package:intl/intl.dart';
 

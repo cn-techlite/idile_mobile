@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:idile_mobile_app/core/utils/size_config.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:idile_mobile_app/core/utils/helper_functions.dart';
-import 'package:idile_mobile_app/features/auth/data/model/auth_result_model.dart';
+import 'package:idile_mobile_app/features/auth/domain/entities/auth_result.dart';
 import 'package:idile_mobile_app/features/auth/presentation/state/providers/auth_provider.dart';
 import 'package:idile_mobile_app/features/home/presentation/screen/home_screen.dart';
 import 'package:idile_mobile_app/shared/widgets/app_buttons.dart';
